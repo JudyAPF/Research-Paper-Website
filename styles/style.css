@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #788cbc;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #496fb6;
+  z-index: 999;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #5c8fc1;
+}
+
+nav ul li a:active {
+  color: #7ca4d1;
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.title h1 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.kevinImage {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kevinImage img {
+  border-radius: 200px;
+}
+
+.kevinImage h2 {
+  padding-bottom: 0;
+  color: #fff;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.box h3 {
+  margin-top: 0;
+}
+
+.box ul {
+  margin: 0 0 20px 20px;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #496fb6;
+  z-index: 999;
+  color: #fff;
+}
